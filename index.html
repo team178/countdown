@@ -15,7 +15,7 @@
         padding: 0;
         height:100vh;
         width: 49.5%;
-        background-color: lightgrey;
+        border: 1px solid #1A245B;
     }
     #projectsheet{
         float:right;
@@ -23,17 +23,25 @@
         padding: 0;
         width: 49.5%;
         height:100vh;
-        background-color:blue;
+        background-color:#1A245B;
+    }
+    @media (max-width: 650px) {
+      #projectsheet {
+        display: none;
+      }
+      #countdown {
+        float: none;
+        margin:0 auto;
+        width: 99.5%;
+      }
     }
     </style>
   </head>
   <body>
     <div style="width: 100%;">
-        <iframe id="countdown" src="https://freesecure.timeanddate.com/countdown/i51am32w/n98/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfde921/cpcfde921/pc0d0054/tcfff/fs100/szw576/szh243/tatBuild%20Season%20Continues/tacfde921/tptBuild%20Season%20is%20OVER./tpcfde921/macfde921/mpcfde921/iso2016-02-23T12:40:00" allowTransparency="true" frameborder="0" width="376" height="122"></iframe>
-
-        <iframe id="projectsheet" src="https://docs.google.com/spreadsheets/d/1HY-cqkMma91cLso2RQJD929eSSkkceIxmiAQAVTw51M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
-        </iframe>
-
+      <iframe id="countdown" src="http://itsalmo.st/#stopbuildday_ge7ts:embed" scrolling="no" frameborder="0" style=""></iframe>
+      <!--<iframe id="countdown" src="https://freesecure.timeanddate.com/countdown/i51am32w/n98/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfde921/cpcfde921/pc0d0054/tcfff/fs100/szw576/szh243/tatBuild%20Season%20Continues/tacfde921/tptBuild%20Season%20is%20OVER./tpcfde921/macfde921/mpcfde921/iso2016-02-23T12:40:00" allowTransparency="true" frameborder="0" width="376" height="122"></iframe>-->
+      <iframe id="projectsheet" src="https://docs.google.com/spreadsheets/d/1HY-cqkMma91cLso2RQJD929eSSkkceIxmiAQAVTw51M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     </div>
   </body>
 </html>
